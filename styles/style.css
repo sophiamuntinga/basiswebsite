@@ -19,6 +19,18 @@
 	--color-background:#eee;
 }
 
+@media only screen and (min-width: 600px) {
+	.burger{
+		display: none;
+	}
+  }
+
+  @media only screen and (max-width: 600px) {
+	.desktop{
+		display: none;
+	}
+  }
+
 
 
 
@@ -28,4 +40,47 @@
 /****************/
 
 /* jouw code */
+* {
+	background-color: #202020;
+}
 
+header {
+	padding: 0em 2em;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav ul {
+	color: #FFFFFF;
+	font: Lexend;
+	list-style-type: none;
+	gap: 4em;
+	display: flex;
+}
+
+p , h1, h2 {
+	color: #FFFFFF;
+}
+
+header nav img {
+	width: 200px;
+	height: 33.46px;
+}
+
+/* ik vroeg aan chatgpt hoe je een foto responsive kon maken, dit is het stukje code dat eruit kwam.
+https://chatgpt.com/c/66e40afb-7e58-8011-9b10-e2ce2939dc0c */
+main section img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+/* het volgende stukje is om de logo's mooi neer te zetten, ik snap grid alleen nog niet helemaal. dus het werkt niet:( */
+/* section ul li {
+	display: grid;
+	grid-template-columns: 16,6% 16,6% 16,6% 16,6% 16,6% 16,6%;
+	grid-template-rows: auto;
+} */
