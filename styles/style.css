@@ -55,7 +55,7 @@ header nav {
 
 header nav ul {
 	color: #FFFFFF;
-	font: Lexend;
+	/* font: Lexend; */
 	list-style-type: none;
 	gap: 4em;
 	display: flex;
@@ -74,7 +74,6 @@ header nav img {
 https://chatgpt.com/c/66e40afb-7e58-8011-9b10-e2ce2939dc0c */
 main section img {
 	max-width: 100%;
-	height: auto;
 	display: block;
 }
 
@@ -84,3 +83,68 @@ main section img {
 	grid-template-columns: 16,6% 16,6% 16,6% 16,6% 16,6% 16,6%;
 	grid-template-rows: auto;
 } */
+main section:nth-of-type(2) {
+	position: relative;
+	height: 40px;
+}
+
+main section:nth-of-type(2) img {
+	position: sticky;
+	top: 0;
+}
+
+/* code uit chat gpt voor hamburgermenu */
+/* Basisstijl voor navigatie */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Hamburger button */
+.hamburger {
+    font-size: 16px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* Verberg het menu standaard op mobiele schermen */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav.active ul {
+        display: flex;
+    }
+}
