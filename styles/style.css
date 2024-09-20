@@ -48,7 +48,7 @@ header {
 	padding: 0em 2em;
 }
 
-header nav {
+/* header nav {
 	display: flex;
 	justify-content: space-between;
 }
@@ -56,16 +56,16 @@ header nav {
 header nav ul {
 	color: #FFFFFF;
 	/* font: Lexend; */
-	list-style-type: none;
+	/* list-style-type: none;
 	gap: 4em;
 	display: flex;
-}
+} */ 
 
 p , h1, h2 {
 	color: #FFFFFF;
 }
 
-header nav img {
+header img {
 	width: 200px;
 	height: 33.46px;
 }
