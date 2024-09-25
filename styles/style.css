@@ -44,29 +44,17 @@
 	background-color: #202020;
 }
 
-header {
-	padding: 0em 2em;
-}
-
-/* header nav {
-	display: flex;
-	justify-content: space-between;
-}
-
-header nav ul {
-	color: #FFFFFF;
-	/* font: Lexend; */
-	/* list-style-type: none;
-	gap: 4em;
-	display: flex;
-} */ 
-
 p , h1, h2 {
 	color: #FFFFFF;
 }
 
-header img {
-	width: 200px;
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+header img:first-of-type {
 	height: 33.46px;
 }
 
@@ -95,11 +83,11 @@ main section:nth-of-type(2) img {
 
 /* code uit chat gpt voor hamburgermenu */
 /* Basisstijl voor navigatie */
-nav {
+/* nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
 nav ul {
     list-style: none;
@@ -119,12 +107,12 @@ nav ul li a {
 
 /* Hamburger button */
 .hamburger {
-    font-size: 16px;
-    background-color: transparent;
-    color: black;
     border: none;
-    cursor: pointer;
-    font-size: 24px;
+}
+
+.hamburger img {
+    max-width: fit-content;
+    padding-bottom: 6px;
 }
 
 /* Verberg het menu standaard op mobiele schermen */
@@ -147,4 +135,8 @@ nav ul li a {
     nav.active ul {
         display: flex;
     }
+}
+
+footer img:first-of-type {
+    width: 100px;
 }
