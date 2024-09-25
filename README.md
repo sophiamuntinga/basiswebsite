@@ -39,11 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/schets-pagina-1" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/schets-pagina-1.jpeg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/pagina-2.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/schets-pagina-2.jpeg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -136,10 +136,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - steek er meer energie in als het niet lukt, zet door!
+  - vraag om hulp
+  - hou het bij kleine stapjes, de opdrachten op dlo helpen
+  - zet alt tekst bij de plaatjes
+  - let op de hierarchie in de sections (voor toegankelijkheid)
+    - hij hoeft niet zichtbaar de zijn, maar zo wordt ie wel voorgelezen door de screenreader.(maak heel klein en opacity 0)  
 
 </details>
 
