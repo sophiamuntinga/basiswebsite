@@ -57,6 +57,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  - De links op de plaatjes geven niet waar waar die heen gaat.
+  - Afbeeldingen hebben geen alt tekst.
+  - De tekst die over de plaatjes heen beweegt blijft zich herhalen, dit is heel irritant.
+  <img src="readme-images/screenshot-link-over-plaatje.png" width="375px" alt="screenshot van tekst die over tekst heen beweegt">
+  - 
+
+
 </details>
 
 
@@ -156,6 +163,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+
+  - Use plain language and avoid figures of speech, idioms, and complicated metaphors.
+  - Make sure that button, a, and label element content is unique and descriptive.
+  - Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages.
+  - Validate your HTML.
+  - Use a lang attribute on the html element.
+  - Provide a unique title for each page or view.
+  - Ensure that viewport zoom is not disabled.
+  - Use landmark elements to indicate important content regions.
+  - 
 
 </details>
 
