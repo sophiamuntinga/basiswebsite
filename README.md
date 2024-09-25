@@ -230,7 +230,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
+  1. MarketingKarwei. (2023, May 19). Wat is een Alt-tekst? Voorbeelden en hoe zet je het zelf in? MarketingKarwei. https://marketingkarwei.nl/alt-tekst-hoe-en-wat/
   2. bron 2
   3. ...
 
