@@ -58,7 +58,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   - De links op de plaatjes geven niet waar waar die heen gaat.
-  - Afbeeldingen hebben geen alt tekst.
+  - Afbeeldingen hebben geen goede alt tekst.
+  <img src="readme-images/screenshot-alttekst.png" width="375px" alt="screenshot van de alttekst in de inspector mode van marchbranding.com">
   - De tekst die over de plaatjes heen beweegt blijft zich herhalen, dit is heel irritant.
   <img src="readme-images/screenshot-link-over-plaatje.png" width="375px" alt="screenshot van tekst die over tekst heen beweegt">
   - 
